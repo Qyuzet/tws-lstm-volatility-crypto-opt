@@ -2,7 +2,7 @@
 
 This repository contains the complete implementation of an LSTM-based volatility forecasting system for cryptocurrency portfolio optimization, as described in the accompanying academic paper.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 suli-lstm-volatility-crypto-opt/
@@ -30,7 +30,7 @@ suli-lstm-volatility-crypto-opt/
         └── figure_bonus_weights.png
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -56,7 +56,7 @@ The script will:
 
 All results will be saved to `dataset/` and `results/` folders.
 
-## 📊 Key Features
+## Key Features
 
 - **Data Collection**: Automated fetching from Yahoo Finance
 - **Feature Engineering**: Log returns, rolling volatility, RSI, ATR
@@ -70,7 +70,7 @@ All results will be saved to `dataset/` and `results/` folders.
 - **Performance Metrics**: Sharpe, Sortino, MDD, CVaR, annualized returns
 - **Visualizations**: Equity curves, volatility comparison, drawdown analysis, portfolio weights
 
-## 📈 Results
+## Results
 
 The implementation generates comprehensive results including:
 
@@ -82,7 +82,7 @@ The implementation generates comprehensive results including:
 
 See `IMPLEMENTATION_SUMMARY.md` for detailed results and analysis.
 
-## 📄 Files Description
+## Files Description
 
 ### Main Files
 
@@ -110,7 +110,7 @@ See `IMPLEMENTATION_SUMMARY.md` for detailed results and analysis.
 - `figures/figure3_drawdown.png` - Drawdown analysis (all 4 strategies)
 - `figures/figure_bonus_weights.png` - LSTM portfolio weights visualization
 
-## 🔧 Configuration
+## Configuration
 
 Key parameters in `crypto_portfolio_strategy.py`:
 
@@ -122,18 +122,18 @@ Key parameters in `crypto_portfolio_strategy.py`:
 - **Training**: 50 epochs, batch size 32
 - **Train/Test Split**: 80/20
 
-## 📚 Citation
+## Citation
 
 If you use this code in your research, please cite the accompanying paper.
 
-## 📝 License
+## License
 
 This project is for academic and research purposes.
 
-## 🤝 Contributing
+## Contributing
 
 This is an academic research project. For questions or suggestions, please open an issue.
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This implementation is for research and educational purposes only. It is not financial advice. Cryptocurrency investments carry significant risk.
