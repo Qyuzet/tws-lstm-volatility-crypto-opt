@@ -1,0 +1,7 @@
+,Equal-Weight Baseline,Minimum Variance Portfolio,Risk Parity Portfolio,LSTM-Guided Volatility Strategy
+Annualized Return,29.1%,28.4%,26.2%,43.9%
+Sharpe Ratio,0.59,0.72,0.57,1.18
+Sortino Ratio,0.88,1.08,0.84,1.77
+Maximum Drawdown,-54.5%,-37.3%,-50.2%,-30.8%
+Annualized Volatility,49.0%,39.5%,45.7%,37.3%
+CVaR (95%),-6.78%,-5.41%,-6.36%,-5.05%
